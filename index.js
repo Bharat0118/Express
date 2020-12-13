@@ -1,6 +1,7 @@
 const express = require("express")
 const path = require("path")
 const hbs = require("hbs")
+const port = process.env || 3000
 
 const app = express()
 
@@ -50,6 +51,6 @@ app.get("*", (req, res) => {
 //     res.send("Hello from abut page")
 // })
 
-app.listen(3000, () => {
+app.listen(port, () => {
     console.log("app is listing at port:3000");
 })

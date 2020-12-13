@@ -1,0 +1,215 @@
+header {
+    background-color: #f44336;
+}
+
+body h1,
+h2,
+h3,
+h4,
+h5 {
+    font-family: "Poppins", sans-serif;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+header h2 {
+    color: white;
+}
+
+nav ul {
+    display: flex;
+    list-style-type: none;
+}
+
+nav ul li {
+    padding: 25px 0px;
+    padding-right: 25px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+a:hover {
+    background-color: white;
+}
+
+.home {
+    padding: 50px 0px;
+}
+
+.home h1 {
+    font-size: 60px;
+}
+
+.home h3 {
+    font-size: 40px;
+    font-weight: bolder;
+    color: #f44336;
+    padding: 20px 0px;
+}
+
+.home h4 {
+    width: 60px;
+    border: 5px solid red;
+    border-radius: 4px;
+}
+
+.about img {
+    width: 100%;
+    margin-bottom: -6px;
+    margin-top: 16px;
+}
+
+.about-us h4 {
+    width: 60px;
+    border: 5px solid red;
+    border-radius: 4px;
+    margin: 30px 0px;
+}
+
+
+/* .about-us h2{
+	color: #f44336;
+	padding-top: 45px ;
+	padding: bottom:40px;
+	font-size: 50px;
+	font-weight: bolder;
+} */
+
+.about-us p {
+    font-size: 20px;
+    font-family: sans-serif;
+}
+
+.about-des h2 {
+    font-size: 50px;
+    font-weight: bolder;
+    color: #f44336;
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+
+.about-des h4 {
+    border: solid 5px red;
+    border-radius: 4px;
+    width: 60px;
+    margin-bottom: 30px;
+}
+
+.about-des p {
+    font-size: 20px;
+    font-family: sans-serif;
+}
+
+.about-des h5 {
+    font-weight: bold;
+    margin: 30px 0px;
+}
+
+.team img {
+    width: 100%;
+}
+
+.team class-body {
+    background-color: #f1f1f1;
+}
+
+.team h4 {
+    font-size: 25px;
+    margin: 30px 15px;
+}
+
+.team h6 {
+    font-size: 20px;
+    margin-left: 15px;
+    color: grey;
+}
+
+.team p {
+    font-size: 18px;
+    font-family: sans-serif;
+    margin-left: 15px;
+    margin-top: 20px;
+}
+
+
+/* .pack h2{
+	color: #f44336;
+	padding-top: 45px ;
+	padding: bottom:40px;
+	font-size: 50px;
+	font-weight: bolder
+} */
+
+.pack h4 {
+    border: red solid 5px;
+    border-radius: 4px;
+    width: 60px;
+    margin-top: 30px;
+}
+
+.pack p {
+    font-family: sans-serif;
+    font-size: 20px;
+    padding-top: 30px;
+}
+
+.about-pack th {
+    font-size: 30px;
+    text-align: center;
+}
+
+.about-pack tr td {
+    font-size: 20px;
+    text-align: center;
+    background-color: #f1f1f1;
+}
+
+button:hover {
+    background-color: black;
+}
+
+
+/* .contact h2{
+	color: #f44336;
+	padding-top: 45px ;
+	padding: bottom:40px;
+	font-size: 50px;
+	font-weight: bolder
+} */
+
+.contact h4 {
+    border: red solid 5px;
+    border-radius: 4px;
+    width: 60px;
+    margin-top: 30px;
+}
+
+.contact p {
+    font-size: 18px;
+    font-family: sans-serif;
+    margin-left: 15px;
+    margin-top: 20px;
+}
+
+.ppp button {
+    width: 100%;
+    padding: 10px 0px;
+}
+
+.footer {
+    width: 100%;
+    height: 50px;
+    background-color: grey;
+    margin-top: auto;
+}
+
+.footer h5 {
+    color: black;
+}
